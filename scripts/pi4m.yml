@@ -1,0 +1,11 @@
+---
+  - name: Playbook
+    hosts: pi4m
+    remote_user: tmunn
+    become: yes
+    become_method: sudo
+    tasks:
+      - name: Fix our hostname
+        hostname:
+          name: pi4m
+          use: alpine

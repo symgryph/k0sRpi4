@@ -1,0 +1,11 @@
+---
+  - name: Playbook
+    hosts: pi3
+    remote_user: tmunn
+    become: yes
+    become_method: sudo
+    tasks:
+      - name: Fix our hostname
+        hostname:
+          name: pi3 # not required. A package name, like C(foo), or multiple packages, like C(foo, bar).
+          use: alpine

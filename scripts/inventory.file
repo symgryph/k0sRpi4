@@ -1,0 +1,17 @@
+[nodes]
+pi1.munn.me
+pi2.munn.me
+pi3.munn.me
+pi4m.munn.me
+
+[pi1]
+192.168.6.25
+
+[pi2]
+192.168.6.26
+
+[pi3]
+192.168.6.27
+
+[pi4m]
+192.168.6.31
